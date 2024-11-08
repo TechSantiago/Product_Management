@@ -1,0 +1,76 @@
+﻿@model IEnumerable<WebApplication3.Models.Product>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="~/css/styles_List.css" />
+    <title>Lista de Productos</title>
+</head>
+<body>
+
+    <h1>Lista de Productos</h1>
+<div class=" = "table-container"> 
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.Id</td>
+                        <td>@product.NameP</td>
+                        <td>@product.Price</td>
+                        <td>@product.Stock</td>
+                        <td>
+                            <button class="edit" onclick="location.href='@Url.Action("Edit", "Product", new { id = product.Id })'">Editar</button>
+                            <button class="delete" onclick="deleteProduct(@product.Id)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">No hay productos disponibles.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+  </div>
+    <script> 
+        async function deleteProduct(id) {
+            const confirmDelete = confirm("¿Estas seguro de que quieres eliminar este´producto?");
+            if (confirmDelete) {
+                try {
+                    const response = await fetch(`/api/Product/${id}`, {
+                        method: 'DELETE'
+                    });
+
+                    if (response.ok) {
+                        const productListItem = document.getElementById(`product-${id}`);
+                        if (productListItem) productListItem.remove();
+                        alert('Producto eliminado exitosamente.');
+                    } else {
+                        alert('Error al eliminar el producto.');
+                    }
+                } catch (error) {
+                    console.error("Error de conexión o en la solicitud:", error);
+                    alert("Hubo un problema al intentar eliminar el producto.");
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>

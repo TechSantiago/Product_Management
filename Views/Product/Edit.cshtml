@@ -1,0 +1,55 @@
+﻿@model WebApplication3.Models.Product
+
+<h1>Editar Producto</h1>
+
+<form id="editProductForm">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label>Nombre del Producto:</label>
+        <input type="text" asp-for="NameP" required />
+    </div>
+    <div>
+        <label>Precio:</label>
+        <input type="number" asp-for="Price" step="0.01" required />
+    </div>
+    <div>
+        <label>Stock:</label>
+        <input type="number" asp-for="Stock" required />
+    </div>
+    <button type="submit">Actualizar Producto</button>
+</form>
+
+<a href="@Url.Action("Index")">Volver a la lista de productos</a>
+
+<script>
+    document.getElementById('editProductForm').onsubmit = async (e) => {
+        e.preventDefault();
+
+        const id = document.querySelector('input[name="Id"]').value;
+        const nameP = document.querySelector('input[name="NameP"]').value;
+        const price = parseFloat(document.querySelector('input[name="Price"]').value);
+        const stock = parseInt(document.querySelector('input[name="Stock"]').value);
+
+        const product = { Id: id, NameP: nameP, Price: price, Stock: stock };
+
+        try {
+            const response = await fetch(`/api/Product`, {
+                method: 'PUT', // Cambia a PUT para actualizar
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(product)
+            });
+
+            if (response.ok) {
+                alert('Producto actualizado exitosamente.');
+                window.location.href = '@Url.Action("Index")'; // Redirige a la lista de productos
+            } else {
+                alert('Error al actualizar el producto.');
+            }
+        } catch (error) {
+            console.error("Error de conexión o en la solicitud:", error);
+            alert("Hubo un problema de conexión o en el servidor.");
+        }
+    };
+</script>

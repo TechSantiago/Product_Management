@@ -1,0 +1,99 @@
+﻿@model IEnumerable<WebApplication3.Models.Product>
+<link rel="stylesheet" href="~/css/styles_index.css">
+
+
+<h1>Gestión de Productos</h1>
+
+<form id="addProductForm">
+    <input type="text" id="nameP" placeholder="Nombre del Producto" required />
+    <input type="number" id="price" placeholder="Precio" step="0.01" required />
+    <input type="number" id="stock" placeholder="Stock" required />
+    <button type="submit">Agregar Producto</button>
+</form>
+
+@* <h2>Lista de Productos</h2> *@
+<ul id="productList">
+    @if (Model != null && Model.Any())
+    {
+     @*    foreach (var product in Model)
+        {
+            <li id="product-@product.Id">
+                @product.NameP - @product.Price - @product.Stock
+                <button onclick="location.href='@Url.Action("Edit", "Product", new { id = product.Id })'">Editar</button>
+                <button onclick="deleteProduct(@product.Id)">Eliminar</button>
+            </li>
+        } *@
+    }
+    else
+    {
+        <li>No hay productos disponibles.</li>
+    }
+</ul>
+<script>
+    document.getElementById('addProductForm').onsubmit = async (e) => {
+        e.preventDefault();
+
+        const nameP = document.getElementById('nameP').value;
+        const price = parseFloat(document.getElementById('price').value);
+        const stock = parseInt(document.getElementById('stock').value);
+
+        const product = { NameP: nameP, Price: price, Stock: stock };
+
+        try {
+            const response = await fetch('/api/Product', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(product)
+            });
+
+            if (response.ok) {
+                const newProduct = await response.json();
+                console.log("Producto agregado:", newProduct);
+
+                // Verificación corregida para coincidir con los nombres de los campos en la respuesta
+                if (newProduct && newProduct.id && newProduct.nameP && newProduct.price && newProduct.stock) {
+                    const productList = document.getElementById('productList');
+                    const newListItem = document.createElement('li');
+                    newListItem.id = `product-${newProduct.id}`;
+                    newListItem.textContent = `${newProduct.nameP} - ${newProduct.price} - ${newProduct.stock}`;
+                    // newListItem.innerHTML += ` <button onclick="deleteProduct(${newProduct.id})">Eliminar</button>`;
+                    productList.appendChild(newListItem);
+                    alert("Producto agregado con exito.");
+                    document.getElementById('addProductForm').reset();
+                } else {
+                    console.error("Error: datos del producto están incompletos:", newProduct);
+                    alert("Hubo un problema al recibir los datos del producto.");
+                }
+            } else {
+                alert('Error al agregar el producto.');
+            }
+        } catch (error) {
+            console.error("Error de conexión o en la solicitud:", error);
+            alert("Hubo un problema de conexión o en el servidor.");
+        }
+    };
+
+    
+   
+
+    async function deleteProduct(id) {
+        try {
+            const response = await fetch(`/api/Product/${id}`, {
+                method: 'DELETE'
+            });
+
+            if (response.ok) {
+                const productListItem = document.getElementById(`product-${id}`);
+                if (productListItem) productListItem.remove();
+                alert('Producto eliminado exitosamente.');
+            } else {
+                alert('Error al eliminar el producto.');
+            }
+        } catch (error) {
+            console.error("Error de conexión o en la solicitud:", error);
+            alert("Hubo un problema al intentar eliminar el producto.");
+        }
+    }
+</script>

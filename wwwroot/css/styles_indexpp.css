@@ -1,0 +1,53 @@
+﻿.indexpp-container body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.indexpp-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .indexpp-container h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .indexpp-container p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .indexpp-container nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .indexpp-container nav ul li {
+            margin: 10px 0;
+        }
+
+            .indexpp-container nav ul li a {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 16px;
+                color: #fff; /* Color del texto del enlace */
+                text-decoration: none; /* Sin subrayado */
+                border-radius: 5px; /* Bordes redondeados */
+                background-color: #007bff; /* Color de fondo */
+                transition: background-color 0.3s; /* Transición suave */
+            }
+
+                .indexpp-container nav ul li a:hover {
+                    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+                }
+
+                .indexpp-container nav ul li a i {
+                    margin-right: 8px; /* Espacio entre el icono y el texto */
+                }

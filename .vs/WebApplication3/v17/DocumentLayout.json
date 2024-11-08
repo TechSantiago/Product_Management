@@ -1,0 +1,363 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\santi\\source\\repos\\WebApplication3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\controllers\\ventascontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:controllers\\ventascontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\views\\product\\nuevaventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:views\\product\\nuevaventa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\wwwroot\\css\\styles_indexpp.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\styles_indexpp.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\wwwroot\\css\\styles_list.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\styles_list.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\wwwroot\\css\\styles_index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\styles_index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\ProductList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Product\\ProductList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\webapplication3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:webapplication3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|c:\\users\\santi\\source\\repos\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425C9E3E-9080-4700-8D1E-AB4D1A9CB79A}|WebApplication3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NuevaVenta.cshtml",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\NuevaVenta.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\NuevaVenta.cshtml",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\NuevaVenta.cshtml",
+              "RelativeToolTip": "Views\\Product\\NuevaVenta.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T03:03:58.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VentasControllers.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Controllers\\VentasControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\VentasControllers.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Controllers\\VentasControllers.cs",
+              "RelativeToolTip": "Controllers\\VentasControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T03:03:12.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:48:35.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "styles_indexpp.css",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\css\\styles_indexpp.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles_indexpp.css",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\css\\styles_indexpp.css",
+              "RelativeToolTip": "wwwroot\\css\\styles_indexpp.css",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-02T02:27:38.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\List.cshtml",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "Views\\Product\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T21:00:32.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Home\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\index.cshtml",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Home\\index.cshtml",
+              "RelativeToolTip": "Views\\Home\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:44:23.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-01T05:43:23.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\repositories\\ProductRepository.cs",
+              "RelativeToolTip": "repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwEgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T19:04:41.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "styles_List.css",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\css\\styles_List.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles_List.css",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\css\\styles_List.css",
+              "RelativeToolTip": "wwwroot\\css\\styles_List.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-01T22:50:08.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T04:59:51.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T16:32:29.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "styles_index.css",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\css\\styles_index.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles_index.css",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\css\\styles_index.css",
+              "RelativeToolTip": "wwwroot\\css\\styles_index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-02T03:08:58.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-01T05:46:40.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:47:15.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebApplication3",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\WebApplication3.csproj",
+              "RelativeDocumentMoniker": "WebApplication3.csproj",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\WebApplication3.csproj",
+              "RelativeToolTip": "WebApplication3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T05:43:10.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-01T05:43:28.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:43:56.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\ProductList.cshtml",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Views\\Product\\ProductList.cshtml",
+              "RelativeToolTip": "Views\\Product\\ProductList.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T06:41:25.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T18:00:11.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:51:49.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\WebApplication3\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T17:44:55.243Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
